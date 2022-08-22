@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f5f9;
+}
+
+.container {
+    text-align: center;
+}
+.left-top {
+    min-width: 550px;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: white;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px #f5f5f9;
+    display: flex;
+    flex-direction: column;
+}
+.user-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.user-name {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #566a7f;
+}
+.user-role {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(241, 232, 232);
+    width: 20%;
+    color: #8592a3;
+    border-radius: 10px;
+    height: 30px;
+}
+.left-top .user-section .user-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
+.accomplishment {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+    align-content: space-between;
+}
+.accomplishment .accomplishment-logo p {
+    color: purple;
+    position: relative;
+    top: 15px;
+    margin-bottom: 10px;
+}
+.accomplishment .accomplishment-logo {
+    width: 50px;
+    height: 50px;
+    color: purple;
+    background-color: #e7e7ff;
+    border-radius: 15px;
+}
+
+.accomplishment-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.accomplishment-amounts p {
+    font-size: 18px;
+    text-align: left;
+    color: #697a8d;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.accomplishment-role p {
+    font-size: 17px;
+    color: #697a8d;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.accomplishment-right,
+.accomplishment-left {
+    display: flex;
+    flex-direction: row;
+}
+.user-details {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.user-info ul {
+    list-style: none;
+    text-align: left;
+}
+.user-info ul li {
+    color: #697a8d;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.user-info {
+    margin-bottom: 60px;
+}
+.user-details h2 {
+    text-align: left;
+    color: #697a8d;
+}
+.user-details hr {
+    color: lightgray;
+}
+.edit-btn {
+    text-decoration: none;
+    color: white;
+}
+.edit-btn-div {
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: #696cff;
+    height: 30px;
+    width: 100px;
+}
+.susp-btn {
+    text-decoration: none;
+    color: red;
+}
+.susp-btn-div {
+    background-color: lightpink;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    padding-top: 10px;
+}
+.user-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
